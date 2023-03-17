@@ -21,7 +21,7 @@ B2.pack(ipadx=20,ipady=20)
 
 def Button3():
     text = 'python'
-    messagebox.showerror('วิชา',text)
+    messagebox.showerror('วิชา : ',text)
 
 FB2 = Frame(GUI)
 FB2.place(x=100,y=200)
